@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/radZZe/react-demo.git/static/css/main.8cdf1505.css",
+    "main.js": "/radZZe/react-demo.git/static/js/main.0c641edf.js",
+    "static/js/787.42c3c54b.chunk.js": "/radZZe/react-demo.git/static/js/787.42c3c54b.chunk.js",
+    "index.html": "/radZZe/react-demo.git/index.html",
+    "main.8cdf1505.css.map": "/radZZe/react-demo.git/static/css/main.8cdf1505.css.map",
+    "main.0c641edf.js.map": "/radZZe/react-demo.git/static/js/main.0c641edf.js.map",
+    "787.42c3c54b.chunk.js.map": "/radZZe/react-demo.git/static/js/787.42c3c54b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cdf1505.css",
+    "static/js/main.0c641edf.js"
+  ]
+}
