@@ -181,37 +181,37 @@ export const priceWeightZoneOne = (weight) => {
     if(weight=== 0 ){
         return 0 ;
     }else if(weight >= 1 && weight <= 70){
-        return 190;
+        return 190+weight+100;
     }else if(70 < weight && weight <= 80){
-        return 200;
+        return 200+weight+100;
     }else if(80 < weight && weight <= 90){
-        return 250
+        return 250+weight+100
     }else if(90 < weight && weight <= 190){
-        return 350
+        return 350+weight+100
     }else if(190 < weight && weight <= 250){
-        return 399
+        return 399+weight+100
     }else if(250 < weight && weight <= 290){
-        return 400
+        return 400+weight+100
     }else if(290 < weight && weight <= 300){
-        return 450
+        return 450+weight+100
     }else if(300 < weight && weight <= 350){
-        return 500
+        return 500+weight+100
     }else if(350 < weight && weight <= 400){
-        return 550
+        return 550+weight+100
     }else if(400 < weight && weight <= 450){
-        return 600
+        return 600+weight+100
     }else if(450 < weight && weight <= 500){
-        return 650
+        return 650+weight+100
     }else if(500 < weight && weight <= 550){
-        return 700
+        return 700+weight+100
     }else if(550 < weight && weight <= 600){
-        return 750
+        return 750+weight+100
     }else if(600 < weight && weight <= 650){
-        return 800
+        return 800+weight+100
     }else if(650 < weight && weight <= 700){
-        return 850
+        return 850+weight+100
     }else if(700 < weight){
-        return 900
+        return 900+weight+100
     }
 
 }
@@ -223,43 +223,43 @@ export const priceWeightZoneTwo = (weight) => {
     if(weight=== 0 ){
         return 0 ;
     }else if(weight >= 1 && weight <= 60){
-        return 200;
+        return 200+weight+100;
     }else if(60 < weight && weight <= 90){
-        return 250;
+        return 250+weight+100;
     }else if(90 < weight && weight <= 190){
-        return 350 //
+        return 350+weight+100 //
     }else if(190 < weight && weight <= 250){
-        return 399
+        return 399+weight+100
     }else if(250 < weight && weight <= 290){
-        return 400
+        return 400+weight+100
     }else if(290 < weight && weight <= 300){
-        return 450
+        return 450+weight+100
     }else if(300 < weight && weight <= 350){
-        return 500
+        return 500+weight+100
     }else if(350 < weight && weight <= 400){
-        return 550
+        return 550+weight+100
     }else if(400 < weight && weight <= 450){
-        return 600
+        return 600+weight+100
     }else if(450 < weight && weight <= 500){
-        return 650
+        return 650+weight+100
     }else if(500 < weight && weight <= 550){
-        return 700
+        return 700+weight+100
     }else if(550 < weight && weight <= 600){
-        return 750
+        return 750+weight+100
     }else if(600 < weight && weight <= 650){
-        return 800
+        return 800+weight+100
     }else if(650 < weight && weight <= 700){
-        return 850
+        return 850+weight+100
     }else if(700 < weight && weight <= 750){
-        return 900
+        return 900+weight+100
     }else if(750 < weight && weight <= 800){
-        return 950
+        return 950+weight+100
     }else if(800 < weight && weight <= 950){
-        return 1000
+        return 1000+weight+100
     }else if(950 < weight && weight <= 1000){
-        return 1050
+        return 1050+weight+100
     }else if ( 1000 < weight){
-        return 1100
+        return 1100+weight+100
     }
 
 }
@@ -270,103 +270,103 @@ export const priceWeightZoneThree = (weight) => {
     if(weight=== 0 ){
         return 0 ;
     }else if(weight >= 1 && weight <= 80){
-        return 250;
+        return 250+weight+100;
     }else if(80 < weight && weight <= 90){
-        return 350;
+        return 350+weight+100;
     }else if(90 < weight && weight <= 100){
-        return 360
+        return 360+weight+100
     }else if(100 < weight && weight <= 110){
-        return 370
+        return 370+weight+100
     }else if(110 < weight && weight <= 190){
-        return 380
+        return 380+weight+100
     }else if(190 < weight && weight <= 250){
-        return 399
+        return 399+weight+100
     }else if(250 < weight && weight <= 290){
-        return 400
+        return 400+weight+100
     }else if(290 < weight && weight <= 300){
-        return 450
+        return 450+weight+100
     }else if(300 < weight && weight <= 350){
-        return 500
+        return 500+weight+100
     }else if(350 < weight && weight <= 400){
-        return 550
+        return 550+weight+100
     }else if(400 < weight && weight <= 450){
-        return 600
+        return 600+weight+100
     }else if(500 < weight && weight <= 550){
-        return 650
+        return 650+weight+100
     }else if(550 < weight && weight <= 600){
-        return 700
+        return 700+weight+100
     }else if(600 < weight && weight <= 650){
-        return 750
+        return 750+weight+100
     }else if(650 < weight && weight <= 700){
-        return 800
+        return 800+weight+100
     }else if(700 < weight && weight <= 750){
-        return 850
+        return 850+weight+100
     }else if(750 < weight && weight <= 800){
-        return 900
+        return 900+weight+100
     }else if(800 < weight && weight <= 950){
-        return 950
+        return 950+weight+100
     }else if ( 950 < weight && weight <= 1000){
-        return 1000
+        return 1000+weight+100
     }else if ( 1000 < weight && weight <= 1050){
-        return 1050
+        return 1050+weight+100
     }else if ( 1050 < weight && weight <= 1100){
-        return 1100
+        return 1100+weight+100
     }else if ( 1100 < weight && weight <= 1150){
-        return 1150
+        return 1150+weight+100
     }else if ( 1150 < weight && weight <= 1200){
-        return 1200
+        return 1200+weight+100
     }else if ( 1200 < weight && weight <= 1250){
-        return 1250
+        return 1250+weight+100
     }else if ( 1250 < weight && weight <= 1300){
-        return 1300
+        return 1300+weight+100
     }else if ( 1300 < weight && weight <= 1350){
-        return 1350
+        return 1350+weight+100
     }else if ( 1350 < weight && weight <= 1400){
-        return 1400
+        return 1400+weight+100
     }else if ( 1400 < weight && weight <= 1450){
-        return 1450
+        return 1450+weight+100
     }else if ( 1450 < weight && weight <= 1500){
-        return 1500
+        return 1500+weight+100
     }else if ( 1500 < weight && weight <= 1550){
-        return 1550
+        return 1550+weight+100
     }else if ( 1550 < weight && weight <= 1600){
-        return 1600
+        return 1600+weight+100
     }else if ( 1600 < weight && weight <= 1650){
-        return 1650
+        return 1650+weight+100
     }else if ( 1650 < weight && weight <= 1700){
-        return 1700
+        return 1700+weight+100
     }else if ( 1700 < weight && weight <= 1750){
-        return 1750
+        return 1750+weight+100
     }else if ( 1750 < weight && weight <= 1800){
-        return 1800
+        return 1800+weight+100
     }else if ( 1800 < weight && weight <= 1850){
-        return 1850
+        return 1850+weight+100
     }else if ( 1850 < weight && weight <= 1900){
-        return 1900
+        return 1900+weight+100
     }else if ( 1900 < weight && weight <= 1950){
-        return 1950
+        return 1950+weight+100
     }else if ( 1950 < weight && weight <= 2000){
-        return 2000
+        return 2000+weight+100
     }else if ( 2000 < weight && weight <= 2050){
-        return 2050
+        return 2050+weight+100
     }else if ( 2050 < weight && weight <= 2100){
-        return 2100
+        return 2100+weight+100
     }else if ( 2100 < weight && weight <= 2150){
-        return 2150
+        return 2150+weight+100
     }else if ( 2150 < weight && weight <= 2200){
-        return 2200
+        return 2200+weight+100
     }else if ( 2200 < weight && weight <= 2250){
-        return 2250
+        return 2250+weight+100
     }else if ( 2250 < weight && weight <= 2300){
-        return 2300
+        return 2300+weight+100
     }else if ( 2350 < weight && weight <= 2400){
-        return 2350
+        return 2350+weight+100
     }else if ( 2400 < weight && weight <= 2450){
-        return 2400
+        return 2400+weight+100
     }else if ( 2450 < weight && weight <= 2500){
-        return 2450
+        return 2450+weight+100
     }else if ( 2500 < weight ){
-        return 2500
+        return 2500+weight+100
     }
 
 
@@ -378,127 +378,127 @@ export const priceWeightZoneFour = (weight) => {
     if(weight=== 0 ){
         return 0 ;
     }else if(weight >= 1 && weight <= 30){
-        return 260;
+        return 260+weight+100;
     }else if(30 < weight && weight <= 40){
-        return 270;
+        return 270+weight+100;
     }else if(40 < weight && weight <= 50){
-        return 280
+        return 280+weight+100
     }else if(50 < weight && weight <= 80){
-        return 290
+        return 290+weight+100
     }else if(80 < weight && weight <= 90){
-        return 350
+        return 350+weight+100
     }else if(90 < weight && weight <= 100){
-        return 380
+        return 380+weight+100
     }else if(100 < weight && weight <= 110){
-        return 390
+        return 390+weight+100
     }else if(110 < weight && weight <= 190){
-        return 420
+        return 420+weight+100
     }else if(190 < weight && weight <= 240){
-        return 450
+        return 450+weight+100
     }else if(240 < weight && weight <= 290){
-        return 500
+        return 500+weight+100
     }else if(290 < weight && weight <= 350){
-        return 550
+        return 550+weight+100
     }else if(350 < weight && weight <= 400){
-        return 560
+        return 560+weight+100
     }else if(400 < weight && weight <= 450){
-        return 600
+        return 600+weight+100
     }else if(450 < weight && weight <= 500){
-        return 650
+        return 650+weight+100
     }else if(500 < weight && weight <= 550){
-        return 700
+        return 700+weight+100
     }else if(550 < weight && weight <= 600){
-        return 750
+        return 750+weight+100
     }else if(600 < weight && weight <= 650){
-        return 800
+        return 800+weight+100
     }else if(650 < weight && weight <= 700){
-        return 850
+        return 850+weight+100
     }else if ( 700 < weight && weight <= 750){
-        return 900
+        return 900+weight+100
     }else if ( 750 < weight && weight <= 800){
-        return 950
+        return 950+weight+100
     }else if ( 800 < weight && weight <= 950){
-        return 1000
+        return 1000+weight+100
     }else if ( 950 < weight && weight <= 1000){
-        return 1050
+        return 1050+weight+100
     }else if ( 1000 < weight && weight <= 1050){
-        return 1100
+        return 1100+weight+100
     }else if ( 1050 < weight && weight <= 1100){
-        return 1150
+        return 1150+weight+100
     }else if ( 1100 < weight && weight <= 1150){
-        return 1200
+        return 1200+weight+100
     }else if ( 1150 < weight && weight <= 1200){
-        return 1250
+        return 1250+weight+100
     }else if ( 1200 < weight && weight <= 1250){
-        return 1300
+        return 1300+weight+100
     }else if ( 1250 < weight && weight <= 1300){
-        return 1350
+        return 1350+weight+100
     }else if ( 1300 < weight && weight <= 1350){
-        return 1400
+        return 1400+weight+100
     }else if ( 1350 < weight && weight <= 1400){
-        return 1450
+        return 1450+weight+100
     }else if ( 1400 < weight && weight <= 1500){
-        return 1500
+        return 1500+weight+100
     }else if ( 1500 < weight && weight <= 1550){
-        return 1550
+        return 1550+weight+100
     }else if ( 1550 < weight && weight <= 1600){
-        return 1600
+        return 1600+weight+100
     }else if ( 1600 < weight && weight <= 1650){
-        return 1650
+        return 1650+weight+100
     }else if ( 1650 < weight && weight <= 1700){
-        return 1700
+        return 1700+weight+100
     }else if ( 1700 < weight && weight <= 1750){
-        return 1750
+        return 1750+weight+100
     }else if ( 1750 < weight && weight <= 1800){
-        return 1800
+        return 1800+weight+100
     }else if ( 1800 < weight && weight <= 1850){
-        return 1850
+        return 1850+weight+100
     }else if ( 1850 < weight && weight <= 1900){
-        return 1900
+        return 1900+weight+100
     }else if ( 1900 < weight && weight <= 1950){
-        return 1950
+        return 1950+weight+100
     }else if ( 1950 < weight && weight <= 2000){
-        return 2000
+        return 2000+weight+100
     }else if ( 2000 < weight && weight <= 2050){
-        return 2050
+        return 2050+weight+100
     }else if ( 2050 < weight && weight <= 2100){
-        return 2100
+        return 2100+weight+100
     }else if ( 2100 < weight && weight <= 2150){
-        return 2150
+        return 2150+weight+100
     }else if ( 2150 < weight && weight <= 2200){
-        return 2200
+        return 2200+weight+100
     }else if ( 2200 < weight && weight <= 2250){
-        return 2250
+        return 2250+weight+100
     }else if ( 2250 < weight && weight <= 2300){
-        return 2300
+        return 2300+weight+100
     }else if ( 2300 < weight && weight <= 2350){
-        return 2350
+        return 2350+weight+100
     }else if ( 2350 < weight && weight <= 2400){
-        return 2400
+        return 2400+weight+100
     }else if ( 2400 < weight && weight <= 2450){
-        return 2450
+        return 2450+weight+100
     }else if ( 2450 < weight && weight <= 2500){
-        return 2500
+        return 2500+weight+100
     }else if ( 2500 < weight && weight <= 2550){
-        return 2550
+        return 2550+weight+100
     }else if ( 2550 < weight && weight <= 2600){
-        return 2600
+        return 2600+weight+100
     }else if ( 2600 < weight && weight <= 2650){
-        return 2650
+        return 2650+weight+100
     }else if ( 2650 < weight && weight <= 2700){
-        return 2700
+        return 2700+weight+100
     }else if ( 2700 < weight && weight <= 2750){
-        return 2750
+        return 2750+weight+100
     }else if ( 2750 < weight && weight <= 2800){
-        return 2800
+        return 2800+weight+100
     }else if ( 2800 < weight && weight <= 2850){
-        return 2850
+        return 2850+weight+100
     }else if ( 2850 < weight && weight <= 2900){
-        return 2900
+        return 2900+weight+100
     }else if ( 2900 < weight && weight <= 2950){
-        return 2950
+        return 2950+weight+100
     }else if ( 2950 < weight){
-        return 3000
+        return 3000+weight+100
     }
 
 
@@ -510,167 +510,167 @@ export const priceWeightZoneFive = (weight) => {
     if(weight=== 0 ){
         return 0 ;
     }else if(weight >= 1 && weight <= 10){
-        return 350;
+        return 350+weight+100;
     }else if(10 < weight && weight <= 20){
-        return 360;
+        return 360+weight+100;
     }else if(20 < weight && weight <= 30){
-        return 370
+        return 370+weight+100
     }else if(30 < weight && weight <= 40){
-        return 380
+        return 380+weight+100
     }else if(40 < weight && weight <= 50){
-        return 390
+        return 390+weight+100
     }else if(50 < weight && weight <= 70){
-        return 400
+        return 400+weight+100
     }else if(70 < weight && weight <= 80){
-        return 410
+        return 410+weight+100
     }else if(80 < weight && weight <= 90){
-        return 420
+        return 420+weight+100
     }else if(90 < weight && weight <= 100){
-        return 430
+        return 430+weight+100
     }else if(100 < weight && weight <= 110){
-        return 440
+        return 440+weight+100
     }else if(110 < weight && weight <= 120){
-        return 450
+        return 450+weight+100
     }else if(120 < weight && weight <= 130){
-        return 460
+        return 460+weight+100
     }else if(130 < weight && weight <= 140){
-        return 470
+        return 470+weight+100
     }else if(140 < weight && weight <= 150){
-        return 480
+        return 480+weight+100
     }else if(150 < weight && weight <= 160){
-        return 490
+        return 490+weight+100
     }else if(160 < weight && weight <= 170){
-        return 500
+        return 500+weight+100
     }else if(170 < weight && weight <= 180){
-        return 510
+        return 510+weight+100
     }else if(180 < weight && weight <= 190){
-        return 520
+        return 520+weight+100
     }else if ( 190 < weight && weight <= 200){
-        return 530
+        return 530+weight+100
     }else if ( 200 < weight && weight <= 210){
-        return 540
+        return 540+weight+100
     }else if ( 210 < weight && weight <= 250){
-        return 550
+        return 550+weight+100
     }else if ( 250 < weight && weight <= 350){
-        return 560
+        return 560+weight+100
     }else if ( 350 < weight && weight <= 400){
-        return 600
+        return 600+weight+100
     }else if ( 400 < weight && weight <= 450){
-        return 650
+        return 650+weight+100
     }else if ( 450 < weight && weight <= 500){
-        return 700
+        return 700+weight+100
     }else if ( 500 < weight && weight <= 550){
-        return 750
+        return 750+weight+100
     }else if ( 550 < weight && weight <= 600){
-        return 800
+        return 800+weight+100
     }else if ( 600 < weight && weight <= 650){
-        return 850
+        return 850+weight+100
     }else if ( 650 < weight && weight <= 700){
-        return 900
+        return 900+weight+100
     }else if ( 700 < weight && weight <= 750){
-        return 950
+        return 950+weight+100
     }else if ( 750 < weight && weight <= 800){
-        return 1000
+        return 1000+weight+100
     }else if ( 800 < weight && weight <= 950){
-        return 1050
+        return 1050+weight+100
     }else if ( 950 < weight && weight <= 1000){
-        return 1100
+        return 1100+weight+100
     }else if ( 1000 < weight && weight <= 1050){
-        return 1150
+        return 1150+weight+100
     }else if ( 1050 < weight && weight <= 1100){
-        return 1200
+        return 1200+weight+100
     }else if ( 1100 < weight && weight <= 1150){
-        return 1250
+        return 1250+weight+100
     }else if ( 1150 < weight && weight <= 1200){
-        return 1300
+        return 1300+weight+100
     }else if ( 1200 < weight && weight <= 1250){
-        return 1350
+        return 1350+weight+100
     }else if ( 1250 < weight && weight <= 1300){
-        return 1400
+        return 1400+weight+100
     }else if ( 1300 < weight && weight <= 1400){
-        return 1450
+        return 1450+weight+100
     }else if ( 1400 < weight && weight <= 1450){
-        return 1500
+        return 1500+weight+100
     }else if ( 1450 < weight && weight <= 1500){
-        return 1550
+        return 1550+weight+100
     }else if ( 1500 < weight && weight <= 1550){
-        return 1600
+        return 1600+weight+100
     }else if ( 1550 < weight && weight <= 1600){
-        return 1650
+        return 1650+weight+100
     }else if ( 1600 < weight && weight <= 1650){
-        return 1700
+        return 1700+weight+100
     }else if ( 1650 < weight && weight <= 1700){
-        return 1750
+        return 1750+weight+100
     }else if ( 1700 < weight && weight <= 1750){
-        return 1800
+        return 1800+weight+100
     }else if ( 1750 < weight && weight <= 1800){
-        return 1850
+        return 1850+weight+100
     }else if ( 1800 < weight && weight <= 1850){
-        return 1900
+        return 1900+weight+100
     }else if ( 1850 < weight && weight <= 1900){
-        return 1950
+        return 1950+weight+100
     }else if ( 1900 < weight && weight <= 1950){
-        return 2000
+        return 2000+weight+100
     }else if ( 1950 < weight && weight <= 2000){
-        return 2050
+        return 2050+weight+100
     }else if ( 2000 < weight && weight <= 2050){
-        return 2100
+        return 2100+weight+100
     }else if ( 2050 < weight && weight <= 2100){
-        return 2150
+        return 2150+weight+100
     }else if ( 2100 < weight && weight <= 2150){
-        return 2200
+        return 2200+weight+100
     }else if ( 2150 < weight && weight <= 2200){
-        return 2250
+        return 2250+weight+100
     }else if ( 2200 < weight && weight <= 2250){
-        return 2300
+        return 2300+weight+100
     }else if ( 2250 < weight && weight <= 2300){
-        return 2350
+        return 2350+weight+100
     }else if ( 2300 < weight && weight <= 2350){
-        return 2400
+        return 2400+weight+100
     }else if ( 2350 < weight && weight <= 2400){
-        return 2450
+        return 2450+weight+100
     }else if ( 2400 < weight && weight <= 2450){
-        return 2500
+        return 2500+weight+100
     }else if ( 2450 < weight && weight <= 2500){
-        return 2550
+        return 2550+weight+100
     }else if ( 2500 < weight && weight <= 2550){
-        return 2600
+        return 2600+weight+100
     }else if ( 2550 < weight && weight <= 2600){
-        return 2650
+        return 2650+weight+100
     }else if ( 2600 < weight && weight <= 2650){
-        return 2700
+        return 2700+weight+100
     }else if ( 2650 < weight && weight <= 2700){
-        return 2750
+        return 2750+weight+100
     }else if ( 2700 < weight && weight <= 2750){
-        return 2800
+        return 2800+weight+100
     }else if ( 2750 < weight && weight <= 2800){
-        return 2850
+        return 2850+weight+100
     }else if ( 2800 < weight && weight <= 2850){
-        return 2900
+        return 2900+weight+100
     }else if ( 2850 < weight && weight <= 2900){
-        return 2950
+        return 2950+weight+100
     }else if ( 2900 < weight && weight <= 2950){
-        return 3000
+        return 3000+weight+100
     }else if ( 2950 < weight && weight <= 3000){
-        return 3050
+        return 3050+weight+100
     }else if ( 3000 < weight && weight <= 3050){
-        return 3100
+        return 3100+weight+100
     }else if ( 3050 < weight && weight <= 3100){
-        return 3150
+        return 3150+weight+100
     }else if ( 3100 < weight && weight <= 3150){
-        return 3200
+        return 3200+weight+100
     }else if ( 3150 < weight && weight <= 3200){
-        return 3250
+        return 3250+weight+100
     }else if ( 3200 < weight && weight <= 3250){
-        return 3300
+        return 3300+weight+100
     }else if ( 3250 < weight && weight <= 3300){
-        return 3350
+        return 3350+weight+100
     }else if ( 3300 < weight && weight <= 3350){
-        return 3400
+        return 3400+weight+100
     }else if ( 3350 < weight && weight <= 3400){
-        return 3450
+        return 3450+weight+100
     }else if ( 3400 < weight){
-        return 3500
+        return 3500+weight+100
     }
 
 
